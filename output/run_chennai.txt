@@ -1,0 +1,8 @@
+Which city? ---------- TextMessage (user) ----------
+What is the weather news in Chennai today?
+---------- ToolCallRequestEvent (weather_news) ----------
+[FunctionCall(id='call_EE5aV0RHQ5o8qTN9uQskozXq', arguments='{"city":"Chennai"}', name='search_weather_news')]
+---------- ToolCallExecutionEvent (weather_news) ----------
+[FunctionExecutionResult(content='- Cyclone alert issued as weather system in Bay of Bengal intensifies (2026-11-09T11:01:47+00:00): Chennai, November 15 (Daily Kiran) : The weather department has raised concerns that a system in the Bay of Bengal may ...\n- Chennai Weather Tomorrow (2026-11-14T11:01:47+00:00): Clear skies or hazardous air? Get the latest weather insights ...\n- Chennai floods (2026-11-04T11:01:47+00:00): Chennai rain (Google Trends): Chennai received 10.5 cm of rain in 24 hours, with Parry’s recording 36.3 cm as flooding affected parts of north Chennai and Velachery. The IMD has forecast heavy to very ...\n- Past weather trends show fewer cyclones crossing Tamil Nadu coast during Northeast monsoon (2026-10-31T11:01:47+00:00): Tamil Nadu sees relatively few cyclones crossing its coast during the October-November Northeast monsoon, with landfalls ...', name='search_weather_news', call_id='call_EE5aV0RHQ5o8qTN9uQskozXq', is_error=False)]
+---------- TextMessage (weather_news) ----------
+The weather in Chennai today shows concerns over a cyclonic system in the Bay of Bengal. Heavy rain occurred recently, with flooding reported in north Chennai. Hazardous air quality is also a concern.

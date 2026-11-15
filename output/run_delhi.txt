@@ -1,0 +1,8 @@
+Which city? ---------- TextMessage (user) ----------
+What is the weather news in Delhi today?
+---------- ToolCallRequestEvent (weather_news) ----------
+[FunctionCall(id='call_P6wG6iy3IpfKyp17kKhAKNAi', arguments='{"city":"Delhi"}', name='search_weather_news')]
+---------- ToolCallExecutionEvent (weather_news) ----------
+[FunctionExecutionResult(content='- School winter vacation 2026: From Delhi and UP to Rajasthan and Punjab—when will schools have their winter break? (2026-11-14T11:02:00+00:00): In the Indian school calendar, winter vacations are among the most anticipated holidays. Because weather patterns vary across ...\n- Delhi AQI stays very poor at 367, 17 stations in severe zone; IMD forecasts slight improvement from rain, transport top contributor at 20.5% (2026-10-27T11:02:00+00:00): Delhi’s air quality stayed ‘very poor’ on Saturday, with the 24-hour average AQI at 367, a marginal improvement from 373 on Friday. Seventeen of 59 stations reported ‘severe’ air. IMD and the early ...', name='search_weather_news', call_id='call_P6wG6iy3IpfKyp17kKhAKNAi', is_error=False)]
+---------- TextMessage (weather_news) ----------
+Delhi's air quality is very poor today, with an AQI of 367. Seventeen stations in the city are reported in the severe zone. A slight improvement is expected due to rain.
